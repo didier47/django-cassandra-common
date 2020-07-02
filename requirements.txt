@@ -1,0 +1,6 @@
+Django
+djangorestframework
+cassandra-driver
+requests
+django-filter
+setuptools
