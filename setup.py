@@ -24,4 +24,5 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
+    download_url='https://github.com/didier47/django-cassandra-common/archive/0.0.1.tar.gz'
 )
