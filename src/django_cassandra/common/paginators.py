@@ -1,7 +1,7 @@
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 
-from src.polaris.common.messages import Messages
+from src.django_cassandra.common.messages import Messages
 
 
 class CustomPagination(PageNumberPagination):

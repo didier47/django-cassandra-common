@@ -4,8 +4,8 @@ from rest_framework.response import Response
 from rest_framework.settings import api_settings
 from rest_framework.viewsets import ViewSetMixin
 
-from src.polaris.common.messages import Messages
-from src.polaris.common.responses import response
+from src.django_cassandra.common.messages import Messages
+from src.django_cassandra.common.responses import response
 
 
 class GenericViewSet(ViewSetMixin, generics.GenericAPIView):
