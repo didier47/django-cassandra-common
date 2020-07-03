@@ -7,6 +7,12 @@ class Enums:
     INACTIVO = 'INACTIVO'
 
 
+class Constants:
+    FORMAT_DATE_TIME = '%Y-%d-%m %H:%M:%S'
+    FORMAT_DATE = '%Y-%d-%m'
+    FORMAT_TIME = '%H:%M:%S'
+
+
 class DynamicFieldsSerializer(serializers.ModelSerializer):
     def __init__(self, *args, **kwargs):
         fields = kwargs.pop('fields', None)
