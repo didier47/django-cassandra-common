@@ -5,3 +5,5 @@ django-cassandra-engine
 requests
 django-filter
 setuptools
+drf-yasg
+django_cassandra_common
